@@ -279,13 +279,20 @@ Execute the programs and publish them.
 ```
 
 ## OUTPUT
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
-![Alt text](image-4.png)
-![Alt text](image-5.png)
-![Alt text](image-6.png)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/7249e0ac-22d5-43a9-849d-39f760ae7335)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/58524b68-1fd4-4df7-9a93-cc6b8caa1cf9)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/20d604ab-1ff5-4f8b-93c7-ca56c24957e5)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/3a54e9c7-d13c-4ec3-9d08-4a05b6618970)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/00c63967-0bf4-4c1e-a468-251ce202357d)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/4ed1cb6e-01c8-41fe-863d-f5072af3302a)
+![image](https://github.com/Srujana0303/NearMe/assets/132996836/c1b19ca3-2dd9-4e70-9243-026853a663c3)
+
+
+
+
+
+
+
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
