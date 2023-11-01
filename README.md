@@ -29,195 +29,263 @@ Execute the programs and publish them.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map</title>
-</head>
-<body>
-    <img src="map.png" usemap="#image-map">
+<html>
 
-    <map name="image-map">
-        <area target="_blank" alt="Guindy National Park" title="Guindy National Park" href="park.html" coords="874,649,1028,721" shape="rect">
-        <area target="_blank" alt="Edward Elliot's Beach" title="Edward Elliot's Beach" href="beach.html" coords="1642,713,1918,779" shape="rect">
-        <area target="_blank" alt="Phoenix Mall" title="Phoenix Mall" href="mall.html" coords="548,879,764,945" shape="rect">
-        <area target="_blank" alt="Indian Institute of Technology" title="Indian Institute of Technology" href="IIT.html" coords="903,852,1099,918" shape="rect">
-        <area target="_blank" alt="ITC grand chola" title="ITC grand chola" href="itc.html" coords="755,490,904,580" shape="rect">
-    </map>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAP</title>
+</head>
+
+<body>
+    <centre>
+        <h1 align:"center" style="font-size: 30px;">
+            <u>IMAGE MAP</u>
+            <p>Srujana.S 212221040143</p>
+        </h1>
+        <img src="maps.png" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="VSR Grand" title="VSR Grand" href="vsr.html"
+                coords="639,357,600,353,596,371,628,371,11,780" shape="poly">
+            <area target="_blank" alt="MMC Park" title="MMC Park" href="mmc.html" coords="720,680,747,682,740,698,722,694"
+                shape="poly">
+            <area target="_blank" alt="Society Colony" title="Society Colony" href="njr.html"
+                coords="271,213,301,211,301,239,274,239" shape="poly">
+            <area target="_blank" alt="NJR Kalyanamandapam" title="NJR Kalyanamandapam" href="society.html"
+                coords="740,612,763,612,761,631,740,623" shape="poly">
+            <area target="_blank" alt="Tomato Market" title="Tomato Market" href="market.html" coords="459,63,475,63,475,75,457,80"
+                shape="poly">
+        </map>
+    </centre>
 </body>
+
 </html>
 ```
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edward Elliot's Beach</title>
+    <title>Tomato Market</title>
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color:darkslategray;
+            color: darkslategray;
         }
-        p{
+
+        p {
             text-align: justify;
-            color:darkolivegreen;
+            color: darkolivegreen;
             font-size: x-large;
-            
+
         }
     </style>
 </head>
+
 <body>
-    <h1>Edward Elliot's Beach</h1>
+    <h1>Tomato Market</h1>
     <br>
     <hr color="Brown">
-    <p>Edward Elliot's Beach, simply called as Elliot's Beach and popularly known as Besant Nagar Beach or the Bessie, is a natural urban beach located in the Besant Nagar neighbourhood of Chennai, Tamil Nadu, India. It is located next to the southern tip of the Marina Beach,[1] and was named after Edward Elliot, a chief magistrate and superintendent of police of the Madras Presidency in colonial India.[2] It has the Shrine of Our Lady of Good Health—also known as Annai Vailankanni Church—on its shore, and the Ashtalakshmi Temple nearby.</p>
-
+    <p>
+        Madanapalle Tomato Market in Neerugattupalle, Madanapalle is a top player in the category 
+        Tomato Retailers in the Madanapalle. This well-known establishment acts as a one-stop 
+        destination servicing customers both local and from other parts of Madanapalle.
+    </p>
 </body>
+
 </html>
 ```
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phoenix Marketcity</title>
+    <title>MMC Park</title>
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color:darkslategray;
+            color: darkslategray;
         }
-        p{
+
+        p {
             text-align: justify;
-            color:darkolivegreen;
+            color: darkolivegreen;
             font-size: x-large;
-            
+
         }
     </style>
 </head>
+
 <body>
-    <h1>Phoenix Marketcity</h1>
+    <h1>MMC Park</h1>
     <br>
     <hr color="Brown">
-    <p>Phoenix Marketcity is a shopping mall developed by Phoenix Mills Limited located in Chennai, Tamil Nadu, India. It was opened in January 2013[1] and is the 2nd largest mall in the city. It was the fourth largest mall in India in 2018. It has a built up area of 1,000,000 square feet. Also there is a Palladium mall situated right next to it.</p>
-
+    <p>
+        MMC Park in Nemali Nagar, Madanapalle is a top player in the category Parks in the Madanapalle.
+        This well-known establishment acts as a one-stop destination servicing customers both local and
+        from other parts of Madanapalle. Over the course of its journey, this business has established a
+        firm foothold in it's industry. The belief that customer satisfaction is as important as their
+        products and services, have helped this establishment garner a vast base of customers, which
+        continues to grow by the day. This business employs individuals that are dedicated towards
+        their respective roles and put in a lot of effort to achieve the common vision and larger
+        goals of the company. In the near future, this business aims to expand its line of products
+        and services and cater to a larger client base. In Madanapalle, this establishment occupies
+        a prominent location in Nemali Nagar. It is an effortless task in commuting to this
+        establishment as there are various modes of transport readily available. It is known to
+        provide top service in the following categories: Parks.
+    </p>
 </body>
+
 </html>
 ```
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITC Grand Chola Hotel</title>
+    <title>NJR Kalyanamandapam</title>
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color:darkslategray;
+            color: darkslategray;
         }
-        p{
+
+        p {
             text-align: justify;
-            color:darkolivegreen;
+            color: darkolivegreen;
             font-size: x-large;
-            
+
         }
     </style>
 </head>
+
 <body>
-    <h1>ITC Grand Chola Hotel</h1>
+    <h1>NJR Kalyanamandapam</h1>
     <br>
     <hr color="Brown">
-    <p>The ITC Grand Chola is a 5-star luxury hotel in Chennai, India.[4] It is located in Guindy, opposite SPIC building and along the same row of buildings as Ashok Leyland Towers. The building, designed by Singapore-based SRSS Architects, is of mixed-use development with three separate wings and is themed after traditional Dravidian architecture of the Chola dynasty.[5] The hotel is the ninth hotel in The Luxury Collection brand</p>
-
+    <p>
+        NJR Kalyana Mandapam in Madanapalle City, Madanapalle is a top player in the category Banquet
+        Halls in the Madanapalle. This well-known establishment acts as a one-stop destination servicing
+        customers both local and from other parts of Madanapalle. Over the course of its journey, this
+        business has established a firm foothold in it's industry. The belief that customer
+        satisfaction is as important as their products and services, have helped this establishment
+        garner a vast base of customers, which continues to grow by the day. This business employs
+        individuals that are dedicated towards their respective roles and put in a lot of effort to
+        achieve the common vision and larger goals of the company. In the near future, this business
+        aims to expand its line of products and services and cater to a larger client base.
+        In Madanapalle, this establishment occupies a prominent location in Madanapalle City.
+        It is an effortless task in commuting to this establishment as there are various modes
+        of transport readily available. It is at Punganur Road, Beside DSP Bunglow, which makes
+        it easy for first-time visitors in locating this establishment. It is known to provide
+        top service in the following categories: Banquet Halls.
+    </p>
 </body>
+
+</html>
+
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Colony</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: darkslategray;
+        }
+
+        p {
+            text-align: justify;
+            color: darkolivegreen;
+            font-size: x-large;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Society Colony</h1>
+    <br>
+    <hr color="Brown">
+    <p>
+        Madanapalle Society Colony Post Office is located at Madanapalle Society Colony, Madanapalle,
+        Chittoor of Andhra Pradesh state. It is a sub office (S.O.). A Post Office (PO) / Dak Ghar is a
+        facility in charge of sorting, processing, and delivering mail to recipients. POs are usually
+        regulated and funded by the Government of India (GOI). Pin code of Madanapalle Society Colony
+        PO is 517325. This Postoffice falls under Chittoor postal division of the Andhra Pradesh postal
+        circle. The related head P.O. for this sub office is Madanapalle head post office
+
+
+    </p>
+</body>
+
 </html>
 ```
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guindy National Park</title>
+    <title>VSR Grand</title>
     <style>
-        h1{
+        h1 {
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color:darkslategray;
+            color: darkslategray;
         }
-        p{
+
+        p {
             text-align: justify;
-            color:darkolivegreen;
+            color: darkolivegreen;
             font-size: x-large;
-            
+
         }
     </style>
 </head>
+
 <body>
-    <h1>Guindy National Park</h1>
+    <h1>VSR Grand</h1>
     <br>
     <hr color="Brown">
-    <p>Guindy National Park is a 2.70 km2 (1.04 sq mi) protected area of Tamil Nadu, located in Chennai, India, is the 8th-smallest National Park of India and one of the very few national parks situated inside a city. The park is an extension of the grounds surrounding Raj Bhavan, formerly known as the 'Guindy Lodge', the official residence of the governor of Tamil Nadu, India. It extends deep inside the governor's estate, enclosing beautiful forests, scrub lands, lakes and streams.</p>
-
+    <p>
+        Situated in Madanapalle, VSR GRAND offers 3-star accommodation with a garden, a shared lounge and a restaurant.
+        The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi throughout the
+        property.
+    </p>
 </body>
-</html>
-```
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Institutes of Technology</title>
-    <style>
-        h1{
-            text-align: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color:darkslategray;
-        }
-        p{
-            text-align: justify;
-            color:darkolivegreen;
-            font-size: x-large;
-            
-        }
-    </style>
-</head>
-<body>
-    <h1>Indian Institutes of Technology</h1>
-    <br>
-    <hr color="Brown">
-    <p>he Indian Institute of Technology (IITs) are Centrally Funded Technical Institutes located across India. They are under the ownership of the Ministry of Education of the Government of India and are governed by the Institutes of Technology Act, 1961. The Act declares them as Institutes of National Importance and lays down their powers, duties, and framework for governance as the country's premier institutions in the field of technology.</p>
-
-</body>
 </html>
 ```
 
 ## OUTPUT
-![image](https://github.com/knight7080/NearMe/assets/88542035/bbc8e717-44de-474d-a34b-51b8b6f52d70)
-![image](https://github.com/knight7080/NearMe/assets/88542035/be6cd0e3-4918-4e58-8d34-88499cf7b18d)
-![image](https://github.com/knight7080/NearMe/assets/88542035/b4b3a2a8-f45f-4891-82ca-63f10d786857)
-![image](https://github.com/knight7080/NearMe/assets/88542035/35164b7a-5b12-40a3-b909-c2463c4ec0e3)
-![image](https://github.com/knight7080/NearMe/assets/88542035/5b8f0258-c732-4749-af9c-22420666f571)
-![image](https://github.com/knight7080/NearMe/assets/88542035/c84e35c0-989e-4b33-8163-bb9c359429c8)
-![image](https://github.com/knight7080/NearMe/assets/88542035/1be99215-e281-4de7-aa71-8be026d08d85)
-
-
-
-
-
-
+![Alt text](image.png)
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
